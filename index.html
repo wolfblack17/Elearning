@@ -8,149 +8,319 @@
   </head>
   
   <body>
-    <header class="px-[140px] pt-[45px] relative">
-      <div class="flex items-center justify-between">
-        <div class="font-bold text-[#10C843] text-3xl">eLearning</div>
-        <ul class="flex gap-4 pr-28 pl-[216px] text-base font-medium">
-          <li class="text-[#10C843]"><a href="#">Home</a></li>
-          <li class="text-[#747474]"><a href="#">Features</a></li>
-          <li class="text-[#747474]"><a href="#">Benefits</a></li>
-          <li class="text-[#747474]"><a href="#">Courses</a></li>
-          <li class="text-[#747474]"><a href="#">Blogs</a></li>
-          <li class="text-[#747474]"><a href="#">Login</a></li>
-        </ul>
-        <div class="rounded-full bg-[#E0E0E0] p-[18px]">
-          <img src="./img/search.svg" alt="Search">
+    <header class="w-full lg:px-[140px] lg:py-[45px] px-4 py-4">
+        <div class="flex items-center justify-between">
+            <div class="font-bold text-[#10C843] text-3xl">eLearning</div>
+            <ul class="lg:flex gap-4 pr-28 pl-[216px] text-base font-medium hidden">
+                <li class="text-[#10C843]">
+                    <a href="#"><div>Home</div></a>
+                </li>
+                <li class="text-[#747474]">
+                    <a href="#"><div>Features</div></a>
+                </li>
+                <li class="text-[#747474]">
+                    <a href="#"><div>Benefits</div></a>
+                </li>
+                <li class="text-[#747474]">
+                    <a href="#"><div>Courses</div></a>
+                </li>
+                <li class="text-[#747474]">
+                    <a href="#"><div>Blogs</div></a>
+                </li>
+                <li class="text-[#747474]">
+                    <a href="#"><div>Login</div></a>
+                </li>
+            </ul>
+            <div class="rounded-full bg-[#E0E0E0] lg:block hidden">
+                <div class="p-[18px]">
+                    <img src="./img/search.svg" alt=""/>
+                </div>
+            </div>
+            <div class="ml-4 text-white font-medium text-base rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
+                <p>Start Free Trial</p>
+                <img src="./img/arrowstraight.svg" alt=""/>
+            </div>
         </div>
-        <div class="ml-4 text-white font-medium text-base rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
-          <p>Start Free Trial</p>
-          <img src="./img/arrowstraight.svg" alt="Arrow">
-        </div>
-      </div>
-      
-      <div>
-        <p class="text-6xl font-semibold text-black mt-[127px] w-[600px]">
-          You bring the <span class="text-[#10C843]">expertise</span>, we'll make it unforgettable.
-        </p>
-      </div>
-      <div class="pt-[30px] font-normal text-black w-[396px]">
-        <p>Using highly personalised activities, videos, and animations, you can energise your students and motivate them to achieve their learning goals as they progress through a journey.</p>
-      </div>
-      <div class="flex pt-[30px] gap-4 pb-[230px]">
-        <div class="ml-4 text-white font-medium text-base rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
-          <p>Register</p>
-          <img src="./img/arrowstraight.svg" alt="Arrow">
-        </div>
-        <div class="font-medium text-base text-[#10C843] rounded-full border-2 border-[#10C843] gap-[10px] px-5 py-4 flex">
-          <p>Login</p>
-          <img src="img/greenarrow.svg" alt="Arrow">
-        </div>
-      </div>
-      
-      <div class="rounded-t-[160px] rounded-br-[160px] rounded-bl-[10px] bg-[#10C843] w-[473px] h-[623px] absolute top-[191px] left-[827px]"></div>
-      <div class="rounded-full bg-white w-[30px] h-[30px] absolute top-[228px] left-[864px]"></div>
-      <div class="rounded-full bg-white w-[30px] h-[30px] absolute top-[213px] left-[1214px]"></div>
-      <div class="rounded-full bg-white w-[30px] h-[30px] absolute top-[311px] left-[810px]"></div>
-      <div class="rounded-full bg-white w-[14px] h-[14px] absolute top-[326px] left-[918px]"></div>
-      <div class="rounded-full bg-white w-[14px] h-[14px] absolute top-[328px] left-[1293px]"></div>
-      <div class="rounded-full bg-white w-[14px] h-[14px] absolute top-[803px] left-[854px]"></div>
-      <div class="rounded-full bg-[#10C843] w-[18px] h-[18px] absolute top-[580px] left-[731px]"></div>
-      <div class="absolute top-[138px] left-[728px]">
-        <img src="./img/women.png" alt="women">
-      </div>
+        
+        <section class="flex flex-col lg:flex-row">
+            <div class="flex-1 mr-[40px]">
+                <p class="lg:text-6xl text-5xl font-semibold text-black lg:mt-[127px] mt-5">You bring the 
+                    <span class="text-[#10C843]">expertise</span>, we'll make it unforgettable.
+                </p>
+                <p class="pt-[30px] font-normal text-black">Using highly personalised activities, videos and animations you can energise your students and motivate them to achieve their learning goals as they progress through a journey.</p>
+                <div class="flex pt-[30px] gap-4 pb-10">
+                    <div class="ml-4 text-white font-medium text-base rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
+                        <p>Register</p>
+                        <img src="./img/arrowstraight.svg" alt=""/>
+                    </div>
+                    <div class="font-medium text-base text-[#10C843] rounded-full border-2 border-[#10C843] gap-[10px] px-5 py-4 flex">
+                        <p>Login</p>
+                        <img src="img/greenarrow.svg" alt=""/>
+                    </div>
+                </div>
+                <div class="rounded-full shadow-xl grid grid-cols-3 bg-white lg:px-5 flex lg:p-4 p-2 lg:absolute lg:z-30">
+                    <div class="flex lg:pr-4 pr-2">
+                        <p class="text-base font-normal text-[#747474] py-7 lg:mr-[70px] mr-4">Select Course</p>
+                        <img src="./img/arrowdown.svg" alt=""/>
+                        <div class="ml-[10px] py-[16.67px]">
+                            <img src="./img/rectangle_partition.svg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <p class="text-base font-normal text-[#747474] py-7 lg:mr-[70px] mr-4">Select Instructor</p>
+                        <img src="./img/arrowdown.svg" alt=""/>
+                        <div class="ml-[10px] py-[16.67px]">
+                            <img src="./img/rectangle_partition.svg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="lg:ml-[34px] ml-4 rounded-full bg-[#10C843] lg:px-5 lg:py-4 lg:gap-10 px-1 py-1 gap-2 flex items-center">
+                        <p class="font-medium text-base text-white">Search</p>
+                        <img src="./img/whitesearch.svg" alt="" class="w-[14.58px] h-[14.58px]"/>
+                    </div>
+                </div>
+            </div>
 
-      <div class="rounded-full bg-white px-5 flex absolute top-[685px] left-[140px]">
-        <div class="flex pr-4">
-          <p class="text-base font-normal text-[#747474] mr-[115px] py-7">Select Course</p>
-          <img src="./img/arrowdown.svg" alt="Arrow">
-          <div class="ml-[10px] py-[16.67px]">
-            <img src="./img/rectangle_partition.svg" alt="Rectangle">
-          </div>
-        </div>
-
-        <div class="flex">
-          <p class="text-base font-normal text-[#747474] mr-[115px] py-7">Select Instructor</p>
-          <img src="./img/arrowdown.svg" alt="Arrow">
-          <div class="ml-[10px] py-[16.67px]">
-            <img src="./img/rectangle_partition.svg" alt="Rectangle">
-          </div>
-        </div>
-
-        <div class="ml-[34px] rounded-full bg-[#10C843] px-5 py-4 gap-10 flex items-center">
-          <p class="font-medium text-base text-white">Search</p>
-          <img src="./img/whitesearch.svg" alt="Search Icon" class="w-[14.58px] h-[14.58px]">
-        </div>
-      </div>
+            <div class="relative lg:mt-[37px] mt-5">
+                <img src="./img/women.png" alt="" class="relative top-0 z-30"/>
+                <div class="rounded-t-[160px] rounded-br-[160px] rounded-bl-[10px] bg-[#10C843] w-full h-full absolute top-0"></div>
+                <div class="rounded-full bg-white size-[30px] absolute top-[20%] -left-[2%] "></div>
+                <div class="rounded-full bg-white size-[30px] absolute top-[8%] left-[2%]"></div>
+                <div class="rounded-full bg-white size-[30px] absolute top-[6%] left-[90%]"></div>
+                <div class="rounded-full bg-white size-[14px] absolute top-[91%] left-[15%]"></div>
+                <div class="rounded-full bg-white size-[14px] absolute top-[28%] left-[99%]"></div>
+                <div class="rounded-full bg-white size-[14px] absolute top-[22%] left-[30%]"></div>
+                <div class="rounded-full bg-[#10C843] size-[18px] absolute top-[65%] -left-[15%]"></div>
+            </div>
+        </section>
     </header>
 
-    <div class="bg-black px-[140px] py-[60px] gap-4 flex items-center">
-      <div class="pt-[34px] pb-[34.71px] pl-[30.51px] pr-[30.64px]">
-        <img src="./img/coursera.png" alt="Coursera">
-      </div>
-
-      <div class="pl-[34.91px] pr-[33.91px] gap-[15.02px] flex items-center">
-        <img src="./img/Udemy.png" alt="Udemy">
-      </div>
-
-      <div class="pl-[30.46px] pr-[31.3px] gap-[9px] flex">
-        <img src="./img/oxford.png" alt="School Logo">
-      </div>
-
-      <div class="pl-[30px] pr-[31.47px]">
-        <img src="./img/michiganstate.png" alt="Michigan State">
-      </div>
-    </div>
-
-    <div class="pt-[180px] px-[140px] gap-[114px]">
-      <div class="w-[572px] h-[594px]">
-        <p class="font-semibold text-[#10C843] text-xl">About Us</p>
-        <p class="py-5 text-[141414] font-medium text-3xl">eLearning provides the best opportunities to students around the globe.</p>
-        <p class="text-black font-normal">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>
-        <p class="text-black font-normal py-5">Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.</p>
-        <div class="w-[132px] h-[56px] text-white font-medium rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
-          <p>Join Us</p>
-          <img src="./img/arrowstraight.svg" alt="Arrow">
+    <section class="bg-black py-10 lg:px-[140px] lg:py-[60px] lg:gap-4 gap-5 flex flex-col lg:flex-row items-center">
+        <div class="lg:px-[30.5px]">
+            <img src="./img/coursera.png" alt=""/>
         </div>
-      </div>
-      <div class="bg-[#F2F2F2] rounded-t-[10px] w-[477px] h-[477px] absolute top-[1274px] left-[826px]"></div>
-      <img src="./img/room.png" alt="Room" class="absolute top-[1254px] left-[964px]">
-      <img src="./img/lap.png" alt="Laptop" class="absolute top-[1522px] left-[786px]">        
-    </div>
-
-    <div class="py-[160px] px-[140px] gap-[114px] flex">
-      <div class="bg-[#F2F2F2] rounded-t-[10px] w-[474px] h-[474px]">
-        <img src="img/light.png" alt="Light" class="px-5 pt-10">
-      </div>
-      <div class="w-[572px] h-[594px]">
-        <p class="font-semibold text-[#10C843] text-xl">Features</p>
-        <p class="py-5 text-[141414] font-medium text-3xl">We are always working to provide you with the best features in all aspects.</p>
-        <p class="text-black font-normal">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>
-        <p class="text-black font-normal py-5">We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.</p>
-        <div class="w-[159px] h-[56px] text-white font-medium rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
-          <p>Learn More</p>
-          <img src="./img/arrowstraight.svg" alt="Arrow">
+        <div class="lg:px-[34px] lg:gap-[15.02px] flex items-center">
+            <img src="./img/Udemy.png" alt="">
+        </div>   
+        <div class="lg:px-[30.5px] lg:gap-[9px] gap-1 flex">
+            <img src="./img/oxford.png" alt=""/>
         </div>
-      </div>
-    </div>
+        <div class="lg:px-[31px]">
+            <img src="./img/michiganstate.png" alt=""/>
+        </div>
+    </section>
 
-    <div class="px-[140px]">
-      <img src="./img/work.png" alt="background">
-      <div class="px-[343px] text-center absolute top-[2823px] right-[143px]">
-        <p class="font-semibold text-xl text-[#10C843]">Join Us</p>
-        <p class="font-medium text-4xl text-white py-5">Join Us by Creating an Account or Start a Free Trial</p>
-        <p class="font-normal text-base text-white">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>
-        <div class="flex gap-4 pt-5 pb-10 px-[140px]">
-          <div class="text-white font-medium rounded-full bg-[#10C843] gap-[10px] px-5 py-4 w-[189px] items-center flex">
-            <p>Start Free Trial</p>
-            <img src="./img/arrowstraight.svg" alt="Arrow">
+    <section class="lg:pt-[160px] lg:px-[140px] lg:gap-[114px] px-4 py-5 gap-5 flex flex-col lg:flex-row">
+        <div class="flex-1">
+            <p class="font-semibold text-[#10C843] text-xl">About Us</p>
+            <p class="py-5 text-[#141414] font-medium text-3xl">eLearning providing the best opportunities to the students around the globe.</p>
+            <p class="text-black font-normal">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>
+            <p class="text-black font-normal py-5">Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.</p>
+            <div class="w-[132px] text-white font-medium rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
+                <p>Join Us</p>
+                <img src="./img/arrowstraight.svg" alt=""/>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="bg-[#F2F2F2] rounded-t-[10px] rounded-b-none w-full h-full absolute top-0"></div>
+            <img src="./img/room.png" alt="" class="relative -top-[5%] lg:left-[30%] z-30"/>
+            <img src="./img/lap.png" alt="" class="relative -bottom-[5%] lg:right-[30%] z-30 pt-5"/>  
+        </div>      
+    </section>
+       
+        <section class="lg:py-[160px] lg:px-[140px] lg:gap-[114px] px-4 py-5 gap-5 flex flex-col lg:flex-row">
+          <div class="bg-[#F2F2F2] rounded-t-[10px] rounded-b-none w-full h-full">
+              <img src="img/light.png" alt="" class="px-5 pt-10">
           </div>
-          <div class="font-medium text-white text-[#10C843] rounded-full border-2 border-white gap-[10px] px-5 py-4 flex">
-            <p>Contact Us</p>
-            <img src="img/arrowstraight.svg" alt="Arrow">
+          <div>
+              <p class="font-semibold text-[#10C843] text-xl">Features</p>
+              <p class="py-5 text-[#141414] font-medium text-3xl">We are always working to provide you best of the features in all aspects.</p>
+              <p class="text-black font-normal">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.</p>
+              <p class="text-black font-normal py-5">We are always improving to help our students reach their full potential and achieve their academic goals through personalized learning experiences.</p>
+              <div class="w-[159px] h-[56px] text-white font-medium rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
+                  <p>Learn More</p>
+                  <img src="./img/arrowstraight.svg" alt="">
+              </div>
           </div>
-        </div>
-      </div>
-    </div>
+      </section>
   
-  <footer>footer</footer>
+ 
+      <section class="lg:px-[140px] px-4 relative">
+          <img src="./img/work.png" alt="" class="relative"/>
+          <div class="lg:px-[343px] px-3 text-center absolute top-0 lg:py-14 py-0.5">
+              <p class="font-semibold lg:text-xl text-base text-[#10C843]">Join Us</p>
+              <p class="font-medium lg:text-4xl text-sm text-white lg:py-5">Join Us by Creating Account or Start a Free Trial</p>
+              <p class="font-normal lg:text-base text-xs text-white">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>  
+              <div class="flex gap-4 lg:pt-5 lg:px-[140px] px-10">
+                  <div class="text-white lg:font-medium font-normal rounded-full bg-[#10C843] lg:gap-[10px] lg:px-5 lg:py-4 px-2 items-center flex">
+                      <p>Start Free Trial</p>
+                      <img src="./img/arrowstraight.svg" alt="">
+                  </div>
+                  <div class="lg:font-medium font-normal text-white text-[#10C843] rounded-full border-2 border-white lg:gap-[10px] px-2 lg:px-5 lg:py-4 flex">
+                      <p>Contact Us</p>
+                      <img src="img/arrowstraight.svg" alt="">
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+     
+      <section class="lg:px-[140px] lg:pt-[160px] py-5 px-4">
+          <p class="font-semibold text-xl text-[#10C843] text-center">Our Benefits</p>
+          <p class="font-medium text-4xl text-black lg:py-[30px] py-3 text-center">By Joining eLearning Platform, One Can Avail a Lot Of Benefits.</p>
+          <p class="font-normal text-base text-black text-center">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
+      </section>
+  
+   
+      <section class="lg:px-[140px] lg:py-10 px-4 py-5 lg:grid lg:grid-cols-3 lg:grid-rows-2 flex flex-col gap-4 gap-x-5 my-10">
+          <div class="bg-[#F7FDF9] rounded-[10px] shadow-xl relative">
+              <div class="p-5">
+                  <img src="./img/half.svg" alt="" class="relative"/>
+                  <p class="text-[#10C843] font-medium text-3xl absolute top-6 left-7">01</p>
+                  <p class="py-5 font-medium text-black text-lg">Standardization</p>
+                  <p class="font-normal text-base text-black">When working in a global workplace, it’s often difficult to gauge learners’ training experiences, which are ...
+                      <span class="font-medium text-[#10C843]">Read More</span>
+                  </p>
+              </div>
+          </div>
+          <div class="rounded-[10px] shadow-xl relative">
+              <div class="p-5">
+                  <img src="./img/half.svg" alt="" class="relative"/>
+                  <p class="text-[#10C843] font-medium text-3xl absolute top-6 left-7">02</p>
+                  <p class="py-5 font-medium text-black text-lg">Reduced Costs</p>
+                  <p class="font-normal text-base text-black">With eLearning, there’s no cost to reproduce materials and, thanks to mobile learning and microlearning, learners can ...
+                      <span class="font-medium text-[#10C843]">Read More</span>
+                  </p>
+              </div>
+          </div>
+          <div class="bg-[#F7FDF9] rounded-[10px] shadow-xl relative">
+              <div class="p-5">
+                  <img src="./img/half.svg" alt="" class="relative"/>
+                  <p class="text-[#10C843] font-medium text-3xl absolute top-6 left-7">03</p>
+                  <p class="py-5 font-medium text-black text-lg">More Customization</p>
+                  <p class="font-normal text-base text-black">Just like learners aren’t one-size-fits-all, learning is not a one-size-fits-all experience. By using different ...
+                      <span class="font-medium text-[#10C843]">Read More</span>
+                  </p>
+              </div>
+          </div>
+          <div class="rounded-[10px] shadow-xl relative">
+              <div class="p-5">
+                  <img src="./img/half.svg" alt="" class="relative"/>
+                  <p class="text-[#10C843] font-medium text-3xl absolute top-6 left-7">04</p>
+                  <p class="py-5 font-medium text-black text-lg">Affordable Pricing</p>
+                  <p class="font-normal text-base text-black">With eLearning, there’s no cost to reproduce materials and, thanks to mobile learning and microlearning, learners can ...
+                      <span class="font-medium text-[#10C843]">Read More</span>
+                  </p>
+              </div>
+          </div>
+          <div class="bg-[#F7FDF9] rounded-[10px] shadow-xl relative">
+              <div class="p-5">
+                  <img src="./img/half.svg" alt="" class="relative"/>
+                  <p class="text-[#10C843] font-medium text-3xl absolute top-6 left-7">05</p>
+                  <p class="py-5 font-medium text-black text-lg">Learner Satisfaction</p>
+                  <p class="font-normal text-base text-black">If you really want students to retain what they learn, you’ll need to aim for high satisfaction rates. Bad ...
+                      <span class="font-medium text-[#10C843]">Read More</span>
+                  </p>
+              </div>
+          </div>
+          <div class="rounded-[10px] shadow-xl relative">
+              <div class="p-5">
+                  <img src="./img/half.svg" alt="" class="relative"/>
+                  <p class="text-[#10C843] font-medium text-3xl absolute top-6 left-7">06</p>
+                  <p class="py-5 font-medium text-black text-lg">Multimedia Materials</p>
+                  <p class="font-normal text-base text-black">One of the main reasons why custom eLearning is effective is that it’s the perfect delivery method for ...
+                      <span class="font-medium text-[#10C843]">Read More</span>
+                  </p>
+              </div>
+          </div>
+      </section>
+  
+     
+      <section class="flex items-center justify-between lg:px-[140px] lg:pb-[160px] pb-5 px-4">
+          <p class="text-xl font-semibold">View All Features</p>
+          <img src="./img/longunderline.svg" alt="" class="lg:block hidden"/>
+          <div class="ml-4 text-white font-medium text-base rounded-full bg-[#10C843] gap-[10px] px-5 py-4 flex">
+              <p>All Features</p>
+              <img src="./img/arrowstraight.svg" alt=""/>
+          </div>
+      </section>
+  
+     
+      <section class="lg:px-[140px] lg:py-[90px] bg-black px-4 py-5">
+          <div class="text-center">
+              <p class="font-semibold text-xl text-[#10C843]">Our Courses</p>
+              <p class="font-medium text-4xl text-white lg:py-[30px] py-3">Our Best Courses Offered and Teach By Best of The Instructors</p>
+              <p class="font-normal text-base text-white lg:pb-[60px] pb-6">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p> 
+          </div>
+          <div class="flex gap-4 overflow-x-auto scroll-smooth">
+              <div class="bg-white rounded-lg px-4 py-4 relative">
+                  <img src="./img/lap1.png" alt=""/>
+                  <div class="rounded-full bg-[#FFFFFF4D] size-10">
+                      <img src="./img/love.svg" alt="" class="absolute top-[40px] left-[82%]"/>
+                  </div>
+                  <div class="flex gap-[77px]">
+                      <p class="text-black text-xl font-semibold">Basics of JAVA</p>
+                      <p class="rounded-lg bg-[#CFF4D9] text-[#10C843] text-xs font-medium px-2 py-1">Beginner Level</p>
+                  </div>
+                  <p class="text-black font-normal text-base py-5">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
+                  <p class="text-[#10C843] text-4xl font-medium">125.65
+                      <span class="text-black text-base">AED</span>
+                  </p>
+                  <div class="pt-[30px] flex gap-4">
+                      <div class="rounded-full bg-[#10C843]">
+                          <p class="py-4 px-[88px] text-white font-medium text-base">View Course</p>
+                      </div>
+                      <div class="rounded-full border-2 p-4 size-[56px] border-[#10C843]">
+                          <img src="./img/shopping.svg" alt="">
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="bg-white rounded-lg px-4 py-4 relative">
+                  <img src="./img/note.png" alt=""/>
+                  <div class="rounded-full bg-[#FFFFFF4D] size-10">
+                      <img src="./img/love.svg" alt="" class="absolute top-[40px] left-[82%]"/>
+                  </div>
+                  <div class="flex gap-[77px]">
+                      <p class="text-black text-xl font-semibold">OOP Fundamentals</p>
+                      <p class="rounded-lg bg-[#CFF4D9] text-[#10C843] text-xs font-medium px-2 py-1">Beginner Level</p>
+                  </div>
+                  <p class="text-black font-normal text-base py-5">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
+                  <p class="text-[#10C843] text-4xl font-medium">15.65
+                      <span class="text-black text-base">AED</span>
+                  </p>
+                  <div class="pt-[30px] flex gap-4">
+                      <div class="rounded-full bg-[#10C843]">
+                          <p class="py-4 px-[88px] text-white font-medium text-base">View Course</p>
+                      </div>
+                      <div class="rounded-full border-2 p-4 size-[56px] border-[#10C843]">
+                          <img src="./img/shopping.svg" alt="">
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="bg-white rounded-lg px-4 py-4 relative">
+                  <img src="./img/work1.png" alt=""/>
+                  <div class="rounded-full bg-[#FFFFFF4D] size-10">
+                      <img src="./img/love.svg" alt="" class="absolute top-[40px] left-[82%]"/>
+                  </div>
+                  <div class="flex gap-[77px]">
+                      <p class="text-black text-xl font-semibold">Intro to UI/UX</p>
+                      <p class="rounded-lg bg-[#CFF4D9] text-[#10C843] text-xs font-medium px-2 py-1">Beginner Level</p>
+                  </div>
+                  <p class="text-black font-normal text-base py-5">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
+                  <p class="text-[#10C843] text-4xl font-medium">16.58
+                      <span class="text-black text-base">AED</span>
+                  </p>
+                  <div class="pt-[30px] flex gap-4">
+                      <div class="rounded-full bg-[#10C843]">
+                          <p class="py-4 px-[88px] text-white font-medium text-base">View Course</p>
+                      </div>
+                      <div class="rounded-full border-2 p-4 size-[56px] border-[#10C843]">
+                          <img src="./img/shopping.svg" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </body>
 </html>
